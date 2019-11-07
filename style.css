@@ -16,7 +16,7 @@ body
   padding-right: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 980px) {
     .header-elements {
         font-size: 2em;
         padding: 0;
@@ -67,7 +67,7 @@ img
     background: rgba(37, 32, 32, 1);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 980px) {
     .img-d {
         padding: 70px;
         margin: 5px;

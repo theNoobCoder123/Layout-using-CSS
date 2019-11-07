@@ -9,36 +9,36 @@ body
 
 .header-elements
 {
-	list-style: none;
-	display: flex;
-	margin: 0;
-	padding-left: 10px;
-	padding-right: 10px;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media only screen and (max-width: 600px) {
     .header-elements {
-        font-size: 0.8em;
+        font-size: 1.2em;
         padding: 0;
     }
 }
 
 .header-elements > li
 {
-	padding: 10px;
-	align-self: flex-start;
+  padding: 10px;
+  align-self: flex-start;
 }
 
 .header-elements > li > a
 {
-	font-size: 0.9em;
-	color: #063312;
-	text-decoration: none;
+  font-size: 0.9em;
+  color: #063312;
+  text-decoration: none;
 }
 
 .left-aligned
 {
-	margin-left: auto;
+  margin-left: auto;
 }
 
 img
@@ -65,6 +65,19 @@ img
     border-radius: 4px;
     transition: all 0.3s linear;
     background: rgba(37, 32, 32, 1);
+}
+
+@media only screen and (max-width: 600px) {
+    .img-d {
+        padding: 50px;
+        margin: 5px;
+        color: rgba(255, 255, 233, 1);
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 3px;
+        transition: all 0.3s linear;
+        background: rgba(37, 32, 32, 1);
+    }
 }
 
 .zone:hover {

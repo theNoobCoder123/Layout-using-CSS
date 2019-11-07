@@ -16,6 +16,13 @@ body
 	padding-right: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    .header-elements {
+        font-size: 0.8em;
+        padding: 0;
+    }
+}
+
 .header-elements > li
 {
 	padding: 10px;
@@ -24,7 +31,7 @@ body
 
 .header-elements > li > a
 {
-	font-size: 18px;
+	font-size: 0.9em;
 	color: #063312;
 	text-decoration: none;
 }
@@ -100,13 +107,6 @@ img
     text-align: center;
     background-color: #ded23f;
 }
-
-
-
-
-
-
-
 
 /*Bob*/
 @-webkit-keyframes hvr-bob {
